@@ -1,5 +1,5 @@
 {
-    "name": "energon7/custom-action-selector",
+    "name": "sandermj/custom-action-selector",
     "description": "This package allows you to change the action select box to a button view.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Energon7\\CustomActionSelector\\": "src/"
+            "sandermj\\CustomActionSelector\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Energon7\\CustomActionSelector\\ToolServiceProvider"
+                "sandermj\\CustomActionSelector\\ToolServiceProvider"
             ]
         }
     },
