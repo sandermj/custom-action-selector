@@ -10,7 +10,7 @@
                         @click.prevent="determineActionStrategy(action.uriKey)"
                         class="btn md:mb-2 flex btn-default hover:bg-primary hover:text-white  btn-dark bg-primary text-white sm:flex-none lg:flex items-center justify-center px-3 mr-2 border-primary" >
                         <span class="span-icon" v-html="action.icon"></span>
-                        <span class="text-base  whitespace-no-wrap">{{ action.name }}</span>
+                        <span class="text-base  whitespace-no-wrap">{{ action.name }} test</span>
                     </button>
 
         </div>
