@@ -1,9 +1,9 @@
 <?php
 
-namespace Energon7\CustomActionSelector\Http\Middleware;
+namespace sandermj\CustomActionSelector\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Energon7\CustomActionSelector\CustomActionSelector;
+use sandermj\CustomActionSelector\CustomActionSelector;
 
 class Authorize
 {
