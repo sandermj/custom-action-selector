@@ -1,6 +1,6 @@
 <?php
 
-namespace Energon7\CustomActionSelector;
+namespace sandermj\CustomActionSelector;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
