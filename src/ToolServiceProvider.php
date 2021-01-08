@@ -1,12 +1,12 @@
 <?php
 
-namespace Energon7\CustomActionSelector;
+namespace sandermj\CustomActionSelector;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Energon7\CustomActionSelector\Http\Middleware\Authorize;
+use sandermj\CustomActionSelector\Http\Middleware\Authorize;
 
 class ToolServiceProvider extends ServiceProvider
 {
